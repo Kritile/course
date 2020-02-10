@@ -1,0 +1,216 @@
+
+body{
+    background-image: url("../img/head-image.png");
+    background-position: top center;
+    background-repeat: no-repeat;
+    width: 1152px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.lang-switcher{
+    color: #11a8ab;
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 300;
+}
+.lang-switcher.active{
+    color:#ffffff
+}
+.front-section{
+    margin-top: 17%;
+}
+.front-section h5{
+    color: #ffffff;
+    font-family: Subway;
+    font-size: 60px;
+    font-weight: 400;
+    text-transform: lowercase;
+    letter-spacing: 24px;
+    text-align: center;
+}
+.front-section .subtitle{
+    color: #ffffff;
+    font-family: "Vogue Avant Garde";
+    font-size: 30px;
+    font-weight: 300;
+    text-transform: uppercase;
+    /* Text style for "A,  GREAT" */
+    letter-spacing: 12px;
+    text-align: center;
+}
+.front-section .btn{
+    color: #ffffff;
+    font-family: Roboto;
+    font-size: 30px;
+    font-weight: 300;
+    /* Text style for "Discover" */
+    letter-spacing: 12px;
+}
+.front-section .btn p{
+    margin-bottom: 0;
+    margin: 10px;
+}
+.front-section .btn_wrapper{
+    margin-top: 20%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #ffffff;
+    border-radius: 7px;
+    width: fit-content;
+}
+.get-started {
+    margin-top: 60%;
+    
+}
+.get-started .wrap{
+    width: 60%;
+}
+.get-started .title{
+    color: #1f253d;
+    font-family: olivier;
+    text-align: center;
+    font-size: 80px;
+    font-weight: 400;
+    letter-spacing: 8px;
+    margin-bottom: 15%;
+}
+.get-started form label {
+    width: 30%;
+    color: #1f253d;
+    font-family: Roboto;
+    font-size: 30px;
+    font-weight: 300;
+    letter-spacing: 3px;
+}
+.get-started form button {
+    display: block;
+    width: 40%;
+    height: 82px;
+    background-color: #1f253d;
+    color: #ffffff;
+    font-family: Roboto;
+    font-size: 30px;
+    font-weight: 300;
+    border-radius: 7px;
+    letter-spacing: 3px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 125px;
+}
+.get-started form input[type = email], .get-started form input[type = password]{
+    border: none;
+    color: #1f253d;
+    font-family: Roboto;
+    font-size: 25px;
+    font-weight: 400;
+    /* Text style for "w, robi126" */
+    letter-spacing: 2.5px;
+    width: 62%;
+}
+
+.get-started form .i-am input{
+    margin-top: 0;
+}
+input[type="checkbox"],input[type="radio"]{
+    display: none;
+}
+.small-text{
+    margin-top: 35px;
+    width: 500px;
+    color: #1f253da1;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 300;
+    letter-spacing: 1.5px;
+    word-wrap: break-word;
+    margin-left: auto;
+    margin-right: auto;
+}
+.gender{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 195px;
+    height: 68px;
+    border: 1px solid #1f253d;
+    color: #1f253d;
+    font-family: Roboto;
+    font-size: 25px;
+    font-weight: 300;
+    letter-spacing: 2.5px;
+    border-radius: 7px;
+}
+.lookingfor .gender{
+    background: #1f253d;
+    color: #ffffff;
+}
+form div{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    align-items: center;
+}
+.email{
+    margin-top:40px
+}
+.gender.active{
+    box-shadow: inset 2px 2px 2px black;
+}
+.lookingfor .gender.active{
+    box-shadow: inset 2px 2px 3px white;
+}
+.tips{
+    margin-top: 30%;
+}
+.tips .title{
+    margin-top: 20%;
+    text-align: center;
+    color: #1f253d;
+    font-family: VogueAvantGarde-ExtraLight;
+    font-size: 50px;
+    font-weight: 400;
+    text-transform: uppercase;
+    /* Text style for "T, ips for" */
+    letter-spacing: 5px;
+}
+.tips .content{
+    text-align: justify;
+    color: #1f253da1;
+    font-family: "Roboto - Thin";
+    font-size: 20px;
+    font-weight: 400;
+    /* Text style for "D, ating i" */
+    letter-spacing: 2px;
+}
+.copyright {
+    margin-top: 30%;
+    text-align: center;
+    color: #1f253da1;
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 300;
+    /* Text style for "C, opyrigh" */
+    letter-spacing: 2px;
+}
+footer{
+    margin-top: 6%;
+}
+.menu{
+    color: #1f253d;
+    font-family: Roboto;
+    font-size: 25px;
+    font-weight: 300;
+    /* Text style for "About us" */
+    letter-spacing: 2.5px;
+}
+.menu_item{
+    display: flex;
+    flex-direction: column;
+}
+.menu_item.active::after{
+    content: '';
+    width: 100%;
+    margin-top: 20px;
+    height: 8px;
+    background: black;
+}

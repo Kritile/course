@@ -4,18 +4,85 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./src/style/fonts.css">
     <link rel="stylesheet" href="./src/bootstrap/css/bootstrap.css">
     <link rel="stylesheet" href="./src/style/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Condensed&display=swap" rel="stylesheet">
     <title>Document</title>
 </head>
 <body>
-    <header>
-
-    </header>
     <main>
-
+        <section>
+            <div class="d-flex justify-content-between mt-5">
+                <img src="./src/img/head-logo.png" alt="Logo">
+                <div class="w-25 d-flex justify-content-around">
+                    <p class="lang-switcher active">English</p>
+                    <p class="lang-switcher">Bangla</p>
+                    <p class="lang-switcher">Arabic</p>
+                    <p class="lang-switcher">Spanish</p>
+                </div>
+            </div>
+        </section>
+        <section class="front-section d-flex justify-content-end">
+            <div class="wrap">
+                <h5 class="title">BOKA!</h5>
+                <p class="subtitle">A GREAT DATING PLACE</p>
+                <div class="btn_wrapper">
+                    <div class="btn">
+                        <p>Discover</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="get-started d-flex justify-content-center">
+            <div class="wrap d-flex flex-column">
+                <h5 class="title">Get Started</h5>
+                <form action="POST">
+                    <div class="i-am"> 
+                        <label for="">I am</label>
+                        <div class="gender iAmMale">Male</div>
+                        <div class="gender iAmFermale">Fermale</div>
+                        <input type="radio" name="iAm" id="iAmMale">
+                        <input type="radio" name="iAm" id="iAmFermale">
+                    </div>
+                    <div class="lookingfor">
+                        <label for="looking">Looking for</label>
+                        <div class="gender lookingMen">Male</div>
+                        <div class="gender lookingWomen">Fermale</div>
+                        <input type="radio" name="looking" id="lookingMen">
+                        <input type="radio" name="looking" id="lookingWomen">
+                    </div>
+                    <div class="email">
+                        <label for="">Email</label>
+                        <input type="email" name="email" id="" placeholder="wrobi1267@gmail.com">
+                        
+                    </div>
+                    <div>
+                        <label for="">Password</label>
+                        <input type="password" name="password" id="" placeholder="********">
+                    </div>
+                    <button type="submit">Join now</button>
+                </form>
+            </div>
+        </section>
+        <p class="small-text w-50">By registering you agree to the Terms and Conditions or Privacy Policy.
+            You will receive all communication from Boka directly in your mail box.</p>
+        <section class="tips">
+            <img src="./src/img/6-layers.png" alt="">
+            <h5 class="title">Tips for first Dating</h5>
+            <p class="content">Dating is sometimes harder than it should be. After countless dinners and drinks, it can be tempting to throw in the towel and resign to nights of forever watching Netflix alone inyo-ur bed. But when dating is done right, it can be amazing, and those great dates often lead to great relationships. So consider this your dating playbook, with all the information you need to survive the first date and make sure there's a second one..</p>
+            <p class="copyright">Copyright © 2017 Boka. All rights reserved. 1170pxX4000px. </p>
+        </section>
     </main>
-    <footer>
+    <footer >
+        <div class="menu d-flex justify-content-between">
+            <div class="menu_item active">About us</div>
+            <div class="menu_item">Terms</div>
+            <div class="menu_item">Privacy</div>
+            <div class="menu_item">Customer Care</div>
+            <div class="menu_item">Contact us</div>
+            <div class="menu_item">Press</div>
+        </div>
         <script src="./src/bootstrap/js/jquery.js"></script>
         <script src="./src/bootstrap/js/bootstrap.js"></script>
     </footer>

@@ -1,0 +1,20 @@
+@font-face{
+    font-family: FranklinGothic-Demi;
+    src: url("../fonts/18097.ttf");
+}
+@font-face{
+    font-family: Subway ;
+    src: url("../fonts/Subway\ Pro\ Berlin.otf");
+}
+@font-face{
+    font-family: VogueAvantGarde ;
+    src: url("../fonts/Vogue.ttf");
+}
+@font-face{
+    font-family: VogueAvantGarde-ExtraLight ;
+    src: url("../fonts/ITC\ Avant\ Garde\ Gothic\ LT\ Extra\ Light.ttf");
+}
+@font-face{
+    font-family: olivier ;
+    src: url("../fonts/olivier_demo.ttf");
+}
