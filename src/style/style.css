@@ -2,8 +2,9 @@
 body{
     background-image: url("../img/head-image.png");
     background-position: top center;
+    background-size: contain;
     background-repeat: no-repeat;
-    width: 1152px;
+    max-width: 80vw;
     margin-left: auto;
     margin-right: auto;
 }
@@ -116,7 +117,6 @@ input[type="checkbox"],input[type="radio"]{
 }
 .small-text{
     margin-top: 35px;
-    width: 500px;
     color: #1f253da1;
     font-family: Roboto;
     font-size: 15px;
@@ -213,4 +213,15 @@ footer{
     margin-top: 20px;
     height: 8px;
     background: black;
+}
+.photo-block div{
+    display: flex;
+    justify-content: center;
+}
+.photo-block div img{
+    width: 100%;
+    height: 100%;
+}
+.second-block a:first-of-type, .second-block a:last-of-type{
+    height: 60%;
 }
