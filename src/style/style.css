@@ -250,7 +250,7 @@ footer{
 }
 @media (max-width:600px){
     html{
-        font-size: 10px;
+        font-size: 8px;
     }
     .lang-swither-wrap{
         width: 50%;
@@ -268,10 +268,16 @@ footer{
         width: 90%;
     }
     .gender{
-        width: 110px;
+        width: 100px;
     }
     .small-text{
-        width: 75%;
+        width: 95%;
+    }
+    .get-started form label{
+        font-size: 1.4rem;
+    }
+    .front-section .btn {
+        letter-spacing: 7px;
     }
     .menu{
         font-size: 1.4rem;
