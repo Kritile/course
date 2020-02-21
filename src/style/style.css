@@ -1,5 +1,6 @@
 
 body{
+    font-size: 24px;
     background-image: url("../img/head-image.png");
     background-position: top center;
     background-size: contain;
@@ -8,10 +9,13 @@ body{
     margin-left: auto;
     margin-right: auto;
 }
+.lang-swither-wrap{
+    width: 30%;
+}
 .lang-switcher{
     color: #11a8ab;
     font-family: Roboto;
-    font-size: 20px;
+    font-size: 1.5rem;
     font-weight: 300;
 }
 .lang-switcher.active{
@@ -23,7 +27,7 @@ body{
 .front-section h5{
     color: #ffffff;
     font-family: Subway;
-    font-size: 60px;
+    font-size: 4rem;
     font-weight: 400;
     text-transform: lowercase;
     letter-spacing: 24px;
@@ -32,7 +36,7 @@ body{
 .front-section .subtitle{
     color: #ffffff;
     font-family: "Vogue Avant Garde";
-    font-size: 30px;
+    font-size: 2rem;
     font-weight: 300;
     text-transform: uppercase;
     /* Text style for "A,  GREAT" */
@@ -42,7 +46,7 @@ body{
 .front-section .btn{
     color: #ffffff;
     font-family: Roboto;
-    font-size: 30px;
+    font-size: 1.7rem;
     font-weight: 300;
     /* Text style for "Discover" */
     letter-spacing: 12px;
@@ -70,7 +74,7 @@ body{
     color: #1f253d;
     font-family: olivier;
     text-align: center;
-    font-size: 80px;
+    font-size: 4rem;
     font-weight: 400;
     letter-spacing: 8px;
     margin-bottom: 15%;
@@ -79,7 +83,7 @@ body{
     width: 30%;
     color: #1f253d;
     font-family: Roboto;
-    font-size: 30px;
+    font-size: 2rem;
     font-weight: 300;
     letter-spacing: 3px;
 }
@@ -90,19 +94,19 @@ body{
     background-color: #1f253d;
     color: #ffffff;
     font-family: Roboto;
-    font-size: 30px;
+    font-size: 2rem;
     font-weight: 300;
     border-radius: 7px;
     letter-spacing: 3px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 125px;
+    margin-top: 11.5rem;
 }
 .get-started form input[type = email], .get-started form input[type = password]{
     border: none;
     color: #1f253d;
     font-family: Roboto;
-    font-size: 25px;
+    font-size: 1.5rem;
     font-weight: 400;
     /* Text style for "w, robi126" */
     letter-spacing: 2.5px;
@@ -116,10 +120,11 @@ input[type="checkbox"],input[type="radio"]{
     display: none;
 }
 .small-text{
+    width: 50%;
     margin-top: 35px;
     color: #1f253da1;
     font-family: Roboto;
-    font-size: 15px;
+    font-size: 1rem;
     font-weight: 300;
     letter-spacing: 1.5px;
     word-wrap: break-word;
@@ -135,7 +140,7 @@ input[type="checkbox"],input[type="radio"]{
     border: 1px solid #1f253d;
     color: #1f253d;
     font-family: Roboto;
-    font-size: 25px;
+    font-size: 1.5rem;
     font-weight: 300;
     letter-spacing: 2.5px;
     border-radius: 7px;
@@ -147,7 +152,7 @@ input[type="checkbox"],input[type="radio"]{
 form div{
     display: flex;
     justify-content: space-around;
-    margin-bottom: 20px;
+    margin-bottom: 1.3rem;
     align-items: center;
 }
 .email{
@@ -167,7 +172,7 @@ form div{
     text-align: center;
     color: #1f253d;
     font-family: VogueAvantGarde-ExtraLight;
-    font-size: 50px;
+    font-size: 3rem;
     font-weight: 400;
     text-transform: uppercase;
     /* Text style for "T, ips for" */
@@ -177,7 +182,7 @@ form div{
     text-align: justify;
     color: #1f253da1;
     font-family: "Roboto - Thin";
-    font-size: 20px;
+    font-size: 1.3rem;
     font-weight: 400;
     /* Text style for "D, ating i" */
     letter-spacing: 2px;
@@ -187,7 +192,7 @@ form div{
     text-align: center;
     color: #1f253da1;
     font-family: Roboto;
-    font-size: 20px;
+    font-size: 1.3rem;
     font-weight: 300;
     /* Text style for "C, opyrigh" */
     letter-spacing: 2px;
@@ -198,7 +203,7 @@ footer{
 .menu{
     color: #1f253d;
     font-family: Roboto;
-    font-size: 25px;
+    font-size: 1.5rem;
     font-weight: 300;
     /* Text style for "About us" */
     letter-spacing: 2.5px;
@@ -210,7 +215,7 @@ footer{
 .menu_item.active::after{
     content: '';
     width: 100%;
-    margin-top: 20px;
+    margin-top: 1.3rem;
     height: 8px;
     background: black;
 }
@@ -224,4 +229,51 @@ footer{
 }
 .second-block a:first-of-type, .second-block a:last-of-type{
     height: 60%;
+}
+@media (max-width:1200px){
+    html{
+        font-size: 13px;
+    }
+    body{
+        max-width:90vw
+    }
+    .lang-swither-wrap{
+        width: 40%;
+    }
+    .header img {
+        width: 15%;
+        height:15%
+    }
+    .get-started .wrap{
+        width: 70%;
+    }
+}
+@media (max-width:600px){
+    html{
+        font-size: 10px;
+    }
+    .lang-swither-wrap{
+        width: 50%;
+    }
+    .front-section{
+        margin-top: 5%;
+    }
+    .front-section .btn_wrapper{
+        margin-top: 5%;
+    }
+    .get-started{
+        margin-top: 20%;
+    }
+    .get-started .wrap{
+        width: 90%;
+    }
+    .gender{
+        width: 110px;
+    }
+    .small-text{
+        width: 75%;
+    }
+    .menu{
+        font-size: 1.4rem;
+    }
 }
